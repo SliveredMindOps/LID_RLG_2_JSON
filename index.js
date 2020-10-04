@@ -12,7 +12,7 @@ switch (process.argv[2]) {
 		console.log(`
 			No input parameters detected. Example usage:
 			node index.js toJson inputRLG.txt output.json
-			node index.js toJson input.json outputRLG.txt
+			node index.js fromJson test.json outputRLG.txt
 			`);
 }
 
